@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Rank_Calculator::SLRC 2024</title>
+    <script>
+        // alert("Dear aspirant, we request you to share this form with other fellow aspirants so we can have maximum amount of data and predict a more errorless cut-off & rank")
+    </script>
+    <style>
+        
+*{
+    margin: 0;
+}
+
+        header {
+            width: 100%;
+            
+            text-align: center;
+            border-bottom: 1px solid grey;
+            box-shadow: 2px 2px 2px 2px grey;
+            background-color: rgb(4, 104, 82);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            position: fixed;
+
+        }
+
+        input {
+            width: 90%;
+            margin-left: 5%;
+
+
+        }
+
+        select {
+
+            width: 90%;
+            margin-left: 5%;
+
+        }
+
+        form {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 20px;
+        
+            background-color: rgb(241, 241, 241);
+            width: 80%;
+            margin: 10px auto;
+            border-radius: 2px;
+            box-shadow: 2px 2px 2px 2px white;
+        }
+
+        label {
+            margin-left: 5%;
+            color: rgb(5, 107, 39);
+            font-size: 18px;
+            
+            
+        }
+
+        #sub {
+            background-color: rgb(37, 39, 38);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            
+            height: 30px;
+
+        }
+
+       
+        div{
+            background-color: rgb(218, 171, 171);
+            padding: 4px;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            text-align: justify;
+        }
+        h3{
+            text-align: center;
+            color: rgb(124, 2, 2);
+        }
+        marquee{
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>SLRC Rank Calculator</header>
+    <br><br> <br>
+    <main>
+
+        <form action=""
+        method="get"> 
+            <h3>Rank Calculator - SLRC/HSSLC Level <br>(Based on tentative answer keys)</h3><br>
+            <marquee behavior="" direction="left">This is not a official website of SLRC or SEBA &copy; Allright reserved with developer!</marquee>
+            <hr><br>
+            <label for="Name">Enter your full name</label> 
+            <input type="text" name="Name" required>
+            <br><br>
+
+
+            <label for="Gender" >Select your gender</label>
+            <select  name="Gender" id="Gender" required>
+                <option value="Select..." selected>Select...</option>
+                <option value="Male" >Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+
+
+
+            <label for="Category" required >Select your category</label>
+            <select id="Category" name="Category" required>
+                <option value="UR" >UR</option> <hr>
+                <option value="OBC" >OBC</option> <hr>
+                <option value="ST">ST</option> <hr>
+                <option value="STH" >STH</option> <hr>
+                <option value="SC">SC</option>
+            </select> <br><br>
+
+
+            <label for="Marks" >Enter your score</label>
+            <input type="number" required name="Marks" placeholder="Deduct 0.25 marks for each wrong answer" max="150"> <br><br>
+
+            <label for="Email">Enter your Email Address</label>
+            <input type="email" required name="Email" placeholder="Enter your vaild email address">
+            <br><br>
+            <label for="Post-Pref" >Applied for graduation level posts?</label>
+            <select name="Post-Pref" id="Post-Pref" required>
+                
+                <option value="Select..." >Select...</option>
+                <option value="Yes" >Yes</option>
+                <option value="No">No</option>
+            </select> <br><br>
+            <input type="submit" name="Submit" value="SUBMIT" id="Sub">
+        </form>
+    </main>
+</body>
+
+</html>
